@@ -1,0 +1,394 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 213, 179);
+}
+
+/* barra de navegacion */
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+align-items: center;
+justify-content: space-between;
+}
+
+/* Estilos generales*/
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt',cursive;
+      
+}
+
+.seccion-oscura{
+    color: white;
+    background-color: #1b1b32;
+
+}
+
+.seccion-clara{
+    color: black;
+    background-color: white#1b1b32;
+
+}
+
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt',cursive;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+
+/* seccion principal*/
+.hero{
+    background-color: #f5c497;
+    min-height: 450px;
+    text-align: center;
+
+}
+.hero-principal{
+    padding: 1.5rem;
+}
+
+.imagen-principal{
+    width: 600px;
+    height: 300px;
+    border-radius: 15%;
+    margin: 20px;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+/* sobre mi*/
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/* cuerpo principal*/
+.principal1{
+    padding: 40px;
+}
+
+
+
+.principal1-titulo{
+  font-size: 25px;  
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+
+
+
+/* adaptable responsivo */
+h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(30, 27, 27, 0.725)
+} 
+
+h2 {
+    font-size: 2em;
+    color: rgb(56, 184, 60);
+}        
+
+h3 {
+    font-size: 1.5em;
+    color: rgb(1, 28, 2);
+} 
+
+
+h4 {
+    font-size: 1.2em;
+    color: rgb(206, 22, 136);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: underline;
+} 
+
+#presentacion {
+    background-color: rgb(71, 10, 226);
+}#temas {
+    background-color: rgb(226, 10, 10);
+}
+
+p,a {
+    font-family: 'Helvetica', sans-serif;
+    color: rgb(14, 76, 156);
+    
+}
+/* oooooooooooooooooooooooooooooooooo */
+h2#titulo2 {
+    font-size: 2.0em;
+    color: rgb(1, 28, 2);
+    line-height: 1.4; 
+    font-family: 'Lucida Bright', sans-serif;
+}
+
+p#edipo1 {
+    font-size: 1.0em;
+    color: rgb(1, 28, 2);
+    line-height: 1.4; 
+    font-family: 'Lucida Bright', sans-serif;
+}
+/* oooooooooooooooooooooooooooooooooo */ 
+ul {
+    font-family: 'Helvetica', sans-serif;
+    color: rgb(14, 76, 156);
+    font-size: smaller;
+    text-indent: 4px;
+}
+
+.cancion {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1.3em;
+    background-color: rgba(146, 224, 207,0.5);
+    color: rgb(194, 16, 123);
+}
+
+.texto-ajustado {
+    line-height: 1.5; /* Ajusta el interlineado a 1.5 */
+}
+
+.texto-importante {
+    line-height: 1.1; /* Ajusta el interlineado a 1.5 */
+    font-family: 'Calibri', sans-serif;
+    font-size: 1.3em;
+    background-color: rgb(247, 196, 162);
+    color: rgb(57, 4, 36);
+}
+
+
+
+.contenedor {
+width: 100%;
+margin: 0 auto;
+padding: 20px;
+border: 1px solid #e9850a;
+background-color: hsl(36, 63%, 75%);
+position: relative; 
+}
+
+.encabezado {
+
+background-color: #ee9b68;
+color: rgb(15, 15, 15);
+text-align: center;
+display: flex;
+
+border: 1px solid #3d0dda;
+font-family: 'Times New Roman', sans-serif;
+
+}
+
+.barra-lateral1 {
+    position: absolute;
+    background-color: #f18172;
+    top: 600px; 
+    right: -20px;     
+    height: 230px; 
+    border: 1px solid #3d0dda;
+
+    
+    padding: 15px;
+    border-left: 3px solid #4CAF50;
+    float: right;
+    width: 22%;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.barra-lateral2 {
+    position: absolute;
+    background-color: #72f1ef;
+    top: 370px; 
+    right: -20px; 
+    
+    height: 240px; 
+    border: 1px solid #3d0dda;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+    padding: 5px;
+    border-left: 3px solid #4CAF50;
+    
+    width: 22%;
+    box-sizing: border-box;
+}
+.seccion1 {
+
+    position: absolute;
+    top: 970px; 
+    right: -3px; 
+    
+    height: 1780px; 
+    width: 100%;
+    padding:48px;
+    box-sizing: border-box;
+    background-color: #9db2f1;
+    border: 1px solid #3d0dda;
+    
+}
+
+.seccion2 {
+
+position: absolute;
+top: 2765px; 
+right: -3px; 
+
+height: 570px; 
+width: 100%;
+padding:48px;
+box-sizing: border-box;
+background-color: #c19df1;
+border: 1px solid #3d0dda;
+
+}
+
+.seccion3 {
+
+position: absolute;
+top: 3080px; 
+right: -3px; 
+
+height: 1450px; 
+width: 100%;
+padding:48px;
+box-sizing: border-box;
+background-color: #d98ef5;
+border: 1px solid #3d0dda;
+
+}
+
+.contenido-principal {
+    position: absolute;
+    
+    top: 200px; 
+    right: -3px; 
+    width: 100%;
+    height: 50px; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.pie-de-pagina {
+
+    position: absolute;
+    top: 3330px; 
+    right: -17px; 
+    width: 99%;
+    height: 110px; 
+
+    clear: both;    
+    background-color: #c1abda;
+    color: rgb(28, 43, 211);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;  
+    border: 1px solid #3d0dda;     
+}
+
+.caja-imagen {
+    position: absolute;
+    background-color: #d6a828;
+    top: 20px; 
+    right: 3px; 
+    width: 150px; 
+    height: 100px; 
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.caja-imagen img {
+    width: 100%;
+    height: auto;
+}
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid rgb(114, 9, 105); /* pone las líneas de la tabla */
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            font-size: 1.3em;
+            background-color: #4CAF50; /* Color de fondo para encabezados */
+            color: white; /* Color del texto para encabezados */
+        }
+
+        td:nth-child(1) {
+            font-size: 1.3em;
+            background-color: #9befd7; /* Color de fondo para la primera columna */
+        }
+
+        td:nth-child(2) {
+            font-size: 1.1em;
+             background-color: #f3d7f7; /* Color de fondo para la segunda columna */
+        } 
+        
+        tr:nth-child(4) td:nth-child(2) {
+            background-color: #ccccff; /* Color de fondo para la tercera fila de datos */
+        }
+        
+        tr:nth-child(2) td:nth-child(2) {
+            background-color: #ccccff; /* Color de fondo para la tercera fila de datos */
+        }
+
+        div .texto-importante {
+            line-height: 1.1; /* Ajusta el interlineado a 1.5 */
+            font-family: 'Times New Roman', sans-serif;
+            font-size: 1.3em;
+            background-color: rgb(251, 220, 153);
+            color: rgb(42, 28, 206);
+        }
+        /* para las pseudo clases */
+        a:link{
+            color: #4CAF50;
+        }
+        a:visited{
+            color: #b91ae9;
+        }
+
+        a:hover{
+            color: #0b35f1;
+            background-color: rgb(196, 186, 245);
+        }
+        a:active{
+            color: #2f4105;
+        }
+/* para las pseudo clases fin */
